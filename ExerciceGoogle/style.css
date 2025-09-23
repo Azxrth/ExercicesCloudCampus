@@ -6,7 +6,7 @@ body {
   
   h1 {
     font-size: 50px;
-    color: #4285F4; /* Bleu Google */
+    color: #4285F4; 
   }
   
   input {
@@ -38,6 +38,7 @@ body {
     margin-top: 15px;
     margin-right: 10px;
     margin-left: 10px;
+    align-items: center;
 
   }
 
@@ -55,6 +56,10 @@ div{
     text-decoration: none;
     color: #000000;
 }
+
+.test:hover {           
+    text-decoration: underline; 
+  }
 
 .footer {
     background: #f2f2f2;
@@ -74,14 +79,14 @@ div{
     margin-right: 20px;
   }
   
-  .footer a:hover {
+  .footer :hover {
     text-decoration: underline;
   }
   
   .footer-left,
   .footer-right {
     display: flex;
-    gap: 20px; /* espace entre les liens */
+    gap: 20px; 
   }
   
   .main{
@@ -90,3 +95,41 @@ div{
     align-items: center;
     height: 50vh;
   }
+
+  .search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 4px 8px;
+    width: 400px;
+    height: 40px;
+    background: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .search-icon img {
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .search-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+  }
+
+  .assetgoogle {
+    padding: 8px;             
+    border-radius: 50%;       
+    cursor: pointer;
+  }
+  
+  .assetgoogle:hover {
+    background-color: #f1f3f4; 
+  }
+  
