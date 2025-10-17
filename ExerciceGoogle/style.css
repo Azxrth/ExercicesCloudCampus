@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: #4285F4; 
+  }
+  
+  input {
+    width: 400px;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e8e8e8;
+  }
+
+  .menu ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+
+  }
+
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+
+div{
+    justify-content: center;
+}
+
+.test{
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+.test:hover {           
+    text-decoration: underline; 
+  }
+
+.footer {
+    background: #f2f2f2;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-size: 14px;
+    height: auto;
+    position: fixed; bottom: 0; width: 100%;
+    
+  }
+  
+  .footer a {
+    color: #5f6368;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .footer :hover {
+    text-decoration: underline;
+  }
+  
+  .footer-left,
+  .footer-right {
+    display: flex;
+    gap: 20px; 
+  }
+  
+  .main{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    height: 50vh;
+  }
+
+  .search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 4px 8px;
+    width: 400px;
+    height: 40px;
+    background: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .search-icon img {
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .search-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+  }
+
+  .assetgoogle {
+    padding: 8px;             
+    border-radius: 50%;       
+    cursor: pointer;
+  }
+  
+  .assetgoogle:hover {
+    background-color: #f1f3f4; 
+  }
+  
