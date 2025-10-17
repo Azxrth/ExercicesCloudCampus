@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+html {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #64748b;
+}
+
+body {
+  background-color: #f8fafc;
+}
+
+h1,
+h2,
+h3 {
+  color: #1e293b;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 32px;
+  margin: 0 auto;
+}
+
+.section {
+  display: flex;:
+  padding: 24px;
+  gap: 25px;
+  flex-direction: column;
+
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.05), 0 0 0 0 rgba(0, 0, 0, 0),
+    0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.25rem; /* 150% */
+}
+
+/* Navigation */
+.active {
+  color: #2563eb;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 21px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.navigation .nav-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.navigation .nav-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  list-style: none;
+}
+
+.navigation .nav-menu a {
+  transition: 0.3s;
+}
+
+.navigation .nav-menu a:hover {
+  color: #2563eb;
+}
+
+.navigation .nav-cta {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  padding: 9px 20px;
+  border-radius: 6px;
+  color: #2563eb;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: #fff;
+}
