@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="section">
+        <h2 class="subtitle">Navigation principale</h2>
+        <nav class="navigation">
+          <div class="nav-menu">
+            <a href="#" class="logo-link"
+              ><img src="./images/logo.png" alt=""
+            /></a>
+            <ul>
+              <li><a href="#" class="active">Accueil</a></li>
+              <li><a href="#">Produits</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="nav-cta">
+            <a href="#" class="btn">Se connecter</a>
+            <a href="#" class="btn btn-primary">S'inscrire</a>
+          </div>
+        </nav>
+        <p class="end"><span class="justification">Justification :</span> c'est sur un seul axe , c'est plus simple à gérer donc flexbox</p>
+      </section>
+        <section class="section">
+          <h2 class="subtitle">Nos Formations populaires</h2>
+            <section class="sectionformule">
+              <article class="articleformule">
+                <div class="imageformule">
+                  <img src="./images/IMAGE-2.png" alt="javascript">
+                </div>
+                <div class="contenuformule1 centre">
+                  <p class="casebleue">Développement</p>
+                  <p>12h de cours</p>
+                </div>
+                <div class="contenuformule2 centre">
+                  <p class="title">Javascript Moderne</p>
+                  <p>Maîtrisez ES6+, async/await et les frameworks modernes Maîtrisez ES6+, async/await et les frameworks modernes Maîtrisez ES6+, async/await et les frameworks modernes  Maîtrisez ES6+, async/await et les frameworks modernes Maîtrisez ES6+, async/await et les frameworks modernes Maîtrisez ES6+, async/await et les frameworks modernesMaîtrisez ES6+, async/await et les frameworks modernes</p>
+                </div>
+                <div class="contenuformule3 centre">
+                  <p class="price">299€</p>
+                  <a href="#" class="btn btn-primary">S'inscrire</a>
+                </div>
+              </article>
+              <article class="articleformule">
+                <div class="imageformule">
+                  <img src="./images/IMAGE-3.png" alt="React">
+                </div>
+                <div class="contenuformule1 centre">
+                  <p class="casebleue">Framework</p>
+                  <p>15h de cours</p>
+                </div>
+                <div class="contenuformule centre">
+                  <p class="title">React Avancé</p>
+                  <p>Créez des applications web performantes avec React</p>
+                </div>
+                <div class="contenuformule3 centre">
+                  <p class="price">399€</p>
+                  <a href="#" class="btn btn-primary">S'inscrire</a>
+                </div>
+              </article>
+              <article class="articlesformule">
+                <div class="imageformule">
+                  <img src="./images/IMAGE-4.png" alt="Node">
+                </div>
+                <div class="contenuformule1 centre">
+                  <p class="casebleue">Backend</p>
+                  <p>18h de cours</p>
+                </div>
+                <div class="contenuformule2 centre">
+                  <p class="title">Node.js & Express</p>
+                  <p>CDévelopper des API REST et des applications serveur</p>
+                </div>
+                <div class="contenuformule3 centre">
+                  <p class="price">449€</p>
+                  <a href="#" class="btn btn-primary">S'inscrire</a>
+                </div>
+              </article>
+            </section>
+            <p class="end"><span class="justification">Justification :</span> on gère toujours globalement une ligne même si il ya plusieurs colonne donc je reste sur Flexbox</p>
+        </section>
+          <section class="section">
+            <h2 class="subtitle">Article à la une</h2>
+              <section class="sectionarticle">
+                <article class="articleformule">
+                    <div class="imageformule">
+                      <img src="./images/IMAGE-6.png" alt="javascript" class="ia">
+                    </div>
+                    </article>
+                  <article>
+                    <div class="contenuformule1 centre">
+                      <p class="casebleue">Technologies</p>
+                      <p>10 min de lecture</p>
+                    </div>
+                    <div class="contenuformule2 centre">
+                      <p class="title">L'impact de l'IA sur le développement Web en 2024</p>
+                      <p>L'intelligence artificielle révolutionne la façon dont nous concevons et développons des applications web. Découvrez les dernières innovations et leur impact sur l'industrie du développement...</p>
+                    </div>
+                    <div class="contenuarticle centre">
+                      <div>
+                        <img src="./images/IMAGE-5.png" alt="profil">
+                      </div>
+                      <div>
+                        <p>Marie Laurent</p>
+                        <p>Lead developper @ Techpro</p>
+                      </div>
+                    </div>
+                </article>
+              </section>
+            <p class="end"><span class="justification">Justification :</span> C'est la même chose que l'une des section de nos formations mais sur une ligne donc Flexbox</p>
+          </section>
+          <section class="section">
+            <h2 class="subtitle">Nos projets</h2>
+            <div class="grid">
+                <img src="./images/IMAGE7.png" alt="" class="grille">
+                <img src="./images/IMAGE8.png" alt="" class="grille">
+                <img src="./images/IMAGE9.png" alt="" class="grille">
+                <img src="./images/IMAGE10.png" alt="" class="grille">
+                <img src="./images/IMAGE11.png" alt="" class="grille large">
+            </div>
+            <p class="end"><span class="justification">Justification :</span> On doit à la fois gérer des lignes et des colonnes , donc je choisis Grid</p>
+          </section>
+    </main>
+  </body>
+</html>
