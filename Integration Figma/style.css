@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'Aston';
+    src: url('./font/Aston\ Script.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url('./font/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+  }
+  
+
+html {
+    background-color: #FDF7E1;
+    max-width: 1920px;
+    font-family: 'Inter';
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.yellownav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 60px; 
+     padding: 0 60px;
+     background-color: #E9B915;
+     border-radius: 60px;
+     max-height: 105px;
+}
+
+.menu {
+    display: flex;              
+    gap: 40px;                  
+    list-style: none;           
+    font-weight: 500;
+    font-size: 40px;
+  }
+
+.yellownav h1{
+    font-family: 'Aston';
+    font-size: 64px;
+}
+
+.image-placeholder {
+    width: 100%;
+    max-width: 1065px;
+    height: auto;
+    aspect-ratio: 1065 / 665;
+    background-color: #c4c4c4;
+    border-radius: 62px;
+  }
+  
+
+.discover {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 60px; 
+    margin-right: 60px;
+    padding: 0 60px;
+}
+
+.tastes{
+    font-family: 'Aston';
+    position: relative;
+}
+
+.drink_button{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 45px;
+    padding: 0 10px;
+    height: 62px;
+    display: inline-flex;          
+    align-items: center;           
+    justify-content: center;
+}
+
+.left_section h1{
+    font-size: 96px;
+    font-weight: 900;
+}
+
+.left_section p{
+    font-size: 30px;
+}
+
+.newmenu{
+    font-weight: 700;
+    font-size: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav2{
+    display: flex;              
+    gap: 176px;                  
+    list-style: none;           
+    font-weight: 500;
+    font-size: 36px;
+    justify-content: center;
+    padding: 16px 0px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.cocktail {
+    margin-top: 62px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  
+  .placeholder2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+  }
+  
+  .image-placeholder2 {
+    width: 407px;
+    height: 700px;
+    background-color: #c4c4c4;
+    border-radius: 300px;
+    flex: 0 0 auto; 
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 15px;
+  }
+  
+  .text span {
+    display: block;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  
+  .placeholder2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .promo-badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 132px;
+    height: 132px; 
+    color: white;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .un {
+    background-color: #26c59e;
+  }
+
+  .deux{
+    background-color: #CFA738;
+  }
+
+  .trois{
+    background-color: #BF1C28;
+  }
+
+  .quatre{
+    background-color: #F55931;
+  }
+  
+  .hero-logo {
+    text-align: center;
+    padding: 100px 40px;
+  }
+  
+  .brand-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 200px;
+    letter-spacing: 4px;
+    color: #000;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+  }
+  
+  .brand-title .script {
+    font-family: 'Aston', cursive;
+    font-size: 200px;
+    font-weight: 400;
+    line-height: 0.7;
+    position: relative;
+    bottom: 40px;
+  }
+  
+  .subtitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-top: -55px;
+    margin-bottom: 30px;
+    transform: translateX(210px)
+  }
+  
+  .description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #111;
+    margin-top: 90px;
+  }
+  
+.lign{
+    display: flex;            
+    gap: 40px;                
+    padding: 0;
+    margin: 0;
+    background-color: #E9B915;
+}
+
+.lign li{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.image-placeholder3 {
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    aspect-ratio: 1920 / 1196;
+    background-color: #c4c4c4;
+  }
+
+  .drink-section {
+    text-align: center;
+    padding: 80px 40px;
+  }
+  
+  .drink-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    letter-spacing: 2px;
+    display: inline-flex;   
+    align-items: center;
+    justify-content: center;
+    gap: 10px;                 
+    margin: 0;
+    color: #000;
+    flex-wrap: wrap;            
+  }
+  
+  .drink-title .script {
+    font-family: 'Aston', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 0.6;
+    position: relative;
+    top: 10px;                  
+  }
+  
+  .drink-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 850px;          
+    margin: 25px auto 0;
+    line-height: 1.6;
+    color: #111;
+  }
+  
+
+.golden-hour {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+  }
+  
+ 
+  .image-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;           
+    padding-left: 0;        
+    border: 2px solid black; 
+    border-left: none;
+    border-radius: 0 210px 210px 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  .image-placeholder4 {
+    background-color: #c4c4c4;
+    width: 700px;
+    height: 350px;
+    border-radius: 0 200px 200px 0;
+  }
+  
+
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #053c24;
+    font-family: 'Inter', sans-serif;
+    gap: 15px;
+  }
+  
+  .text-content h2 {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0;
+  }
+  
+  .text-content .mix-with {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+  
+
+  .tags {
+    background-color: #053c24;
+    color: white;
+    padding: 8px 60px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+
+  .description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+    max-width: 450px;
+    margin: 0;
+  }
+  
+
+  .shop-btn {
+    background: none;
+    border: 1px solid #053c24;
+    border-radius: 20px;
+    color: #053c24;
+    padding: 8px 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  
+  .shop-btn:hover {
+    background: #053c24;
+    color: white;
+  }
+  

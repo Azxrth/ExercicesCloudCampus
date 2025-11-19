@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Déplacement carré</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Copieur</h1>
+    <p>votre texte ici</p><textarea id="entree" placeholder="Tapez ici..."></textarea> 
+    <p>La copie ici</p><textarea id="sortie" readonly></textarea>
+    <hr>
+    <h2>Calcul</h2>
+    <p>Saisissez un nombre</p>
+    <input type="text" id="texte" placeholder="Tapez ici...">
+    <table>
+        <tr>
+            <th><p>nombre</p></th>
+            <th><p>carré</p></th>
+            <th><p>cube</p></th>
+        </tr>
+        <tr>
+            <th><input type="text" id="nombre" readonly></th>
+            <th><input type="text" id="carre" readonly></th>
+            <th><input type="text" id="cubeNum" readonly></th>
+
+        </tr>
+    </table>
+    <hr>
+    <h1>Déplacement carré</h1>
+
+    <div class="controls">
+        <button id="step">Bouge</button>
+    </div>
+    <div class="grid" id="grid">
+        <div class="cube" id="cube"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
