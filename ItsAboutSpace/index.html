@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Its About Space</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="brand">SPACEX</div>
+        <nav class="topnav">
+            <a href="#">ACCUEIL</a>
+            <a href="#">PROCHAINE MISSION</a>
+            <a href="planete.html">PLANÈTE</a>
+        </nav>
+    </header>
+
+    <aside class="sidebar">
+        <ul>
+            <li class="icon" data-endpoint="planets"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.2"/></svg><span>PLANÈTES</span></li>
+            <li class="icon" data-endpoint="vehicles"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="7" width="20" height="8" stroke="currentColor" stroke-width="1.4" rx="1"/></svg><span>VÉHICULES</span></li>
+            <li class="icon" data-endpoint="people"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="3" stroke="currentColor" stroke-width="1.2"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6" stroke="currentColor" stroke-width="1.2"/></svg><span>PERSONNES</span></li>
+        </ul>
+    </aside>
+
+    <main class="content">
+        <section class="hero">
+            <div class="hero-inner">
+                <h1>ABOUT THE UNIVERSE</h1>
+                <p>Bienvenue sur ABOUT THE UNIVERSE pour découvrir toutes nos découvertes à propos du monde qui nous entoure !</p>
+                <a class="btn" href="#about">DÉCOUVRIR</a>
+            </div>
+        </section>
+
+        <section id="about" class="panel about">
+            <h2>ABOUT THE UNIVERSE</h2>
+            <p>Bienvenue sur ABOUT THE UNIVERSE pour découvrir toutes nos découvertes à propos du monde qui nous entoure !</p>
+            <a class="btn outline" href="#">DÉCOUVRIR</a>
+        </section>
+
+        <section class="panel stats">
+            <h2>LES CHIFFRES</h2>
+            <p class="muted">Nous nous efforçons à archiver toutes nos trouvailles pour vous les partager autant que possible !</p>
+            <div class="stats-grid">
+                <div class="stat">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-body">
+                        <p>Nombre d'êtres vivants recensés</p>
+                        <span id="count-people">...</span> </div>
+                <div class="stat">
+                    <div class="stat-icon">🛰️</div>
+                    <div class="stat-body">
+                        <p>Nombre de véhicules recensés</p>
+                        <span id="count-vehicles">...</span> </div>
+                    <div class="stat-icon">🌍</div>
+                    <div class="stat-body">
+                        <p>Nombre de planètes recensées</p>
+                        <span id="count-planets">...</span> </div>
+                    <div class="stat-icon">⏰</div>
+                        <div class="stat-body">
+                            <div class="stat-num">Prochaine mission</div>
+                            <div class="stat-label">10 Juin 2021</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-cta">
+                <a class="btn" href="#">PARTICIPER À LA PROCHAINE MISSION</a>
+            </div>
+        </section>
+        <script src="js/api.js"></script>
+        <script src="js/dom.js"></script>
+        <script src="js/planets.js"></script>
+    </body>
+</html>

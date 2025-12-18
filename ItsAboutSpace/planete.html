@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Planètes — Its About Space</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="brand">SPACEX</div>
+        <nav class="topnav">
+            <a href="index.html">ACCUEIL</a>
+            <a href="#">PROCHAINE MISSION</a>
+            <a href="planete.html">PLANÈTE</a>
+        </nav>
+    </header>
+
+    <aside class="sidebar">
+        <ul>
+            <li class="icon" data-endpoint="planets">🌐<span>PLANÈTES</span></li>
+            <li class="icon" data-endpoint="vehicles">🚀<span>VÉHICULES</span></li>
+            <li class="icon" data-endpoint="people">👩‍🚀<span>PERSONNES</span></li>
+        </ul>
+    </aside>
+
+    <main class="content-wrapper">
+        <div class="page-frame">
+            <main class="content planete-page">
+                <div class="planete-grid">
+                    <aside class="planete-list panel">
+                        <div class="panel-header">
+                            <h3>PLANÈTES</h3>
+                            <div class="controls">
+                                <select id="sort-select" aria-label="Trier">
+                                    <option value="population_desc">Par population</option>
+                                    <option value="population_asc">Par population (asc)</option>
+                                    <option value="name_asc">Par nom (A→Z)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="search-row">
+                            <input id="search-input" type="search" placeholder="Faites votre recherche" aria-label="Rechercher">
+                            <button id="search-clear" title="Effacer">✕</button>
+                        </div>
+
+                        <div class="table-wrap">
+                            <table class="planets-table" id="planets-table">
+                                <thead>
+                                    <tr><th>Nom</th><th>Terrain</th></tr>
+                                </thead>
+                                <tbody>
+                                    <!-- remplissage dynamique -->
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="panel-footer muted" id="results-count">0 résultat(s)</div>
+                    </aside>
+
+                    <section class="panel selection-panel">
+                        <div class="selection-empty muted">Sélectionner le contenu à afficher !</div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </main>
+
+        <script src="js/api.js"></script>
+        <script src="js/dom.js"></script>
+        <script src="js/planets.js"></script>
+</body>
+</html>

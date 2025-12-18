@@ -16,8 +16,8 @@ if (texte) {
     texte.addEventListener('input', () => {
         const value = Number(texte.value) || 0;
         nombre.value = value;
-        carre.value = value * value;
-        cubeNum.value = value * value * value;
+        carre.value = Math.pow(value, 2);
+        cubeNum.value = Math.pow(value, 3);
     });
 }
 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afficheur de chiens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="section">
+        <div id="cube" aria-hidden="true">
+            <img id="chien-img" alt="Photo d'un chien">
+        </div>
+        <button id="montrer-chien">Afficher un chien !</button>
+        <select name="race" id="race-select">
+            <option value="all" selected>Toutes les races (Aléatoire)</option>
+            <option value="doberman">doberman</option>
+            <option value="labrador">labrador</option>
+            <option value="husky">husky</option>
+            <option value="pug">pug</option>
+            <option value="bulldog">bulldog</option>
+        </select>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
